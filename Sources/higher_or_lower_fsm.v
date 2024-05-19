@@ -133,7 +133,7 @@ module higher_or_lower_fsm (
                 
                 if(confirm_btn)
                 begin
-                    next_state = Idle;
+                    next_state = Guess;
                 end
               
             end 
