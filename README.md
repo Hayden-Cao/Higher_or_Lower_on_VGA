@@ -26,5 +26,7 @@ I obtained information about the VGA standard from this website: http://tinyvga.
 
 **VGA Driver Demonstration**
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/kQseHenVHBY/0.jpg)](http://www.youtube.com/watch?v=kQseHenVHBY) VGA Driver for Higher or Lower Guess Game on a Nexys A7-100T FPGA
+To View Click on the Image to open the Youtube Link
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/kQseHenVHBY/0.jpg)](http://www.youtube.com/watch?v=kQseHenVHBY) 
 
