@@ -60,5 +60,6 @@ module vga_game(
         .o_blue(o_blue)
         
     );
+
     
 endmodule
