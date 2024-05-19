@@ -31,7 +31,7 @@ module rand_num_gen
 
     always @(*)
     begin
-        i_rand_next = {o_rand[N-1:1], shift_in};
+        i_rand_next = {shift_in, o_rand[N-1:1]};
     end
 
     assign o_rand = i_rand;

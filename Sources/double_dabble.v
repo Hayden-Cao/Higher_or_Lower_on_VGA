@@ -8,25 +8,27 @@ module double_dabble (
 
 );
 
-integer i;
-
-always @(*)
-begin
-
-    for (i = 0; i <= 7; i = i + 1)
+    integer i; 
+    
+    always @(num_in)
     begin
+        bcd_out = 0;
+        for(i = 0; i < 8; i = i + 1)
+        begin
 
-        if (bcd_out[3:0] >= 5)
-            bcd_out[3:0] = bcd_out[3:0] + 3;
+            bcd_out = {bcd_out[10:0], num_in[7-i]};
 
-        if (bcd_out[7:4] >= 5) 
-            bcd_out[7:4] = bcd_out[7:4] + 3;
+            if (i < 7 && bcd_out[3:0] > 4)
+                bcd_out[3:0] = bcd_out[3:0] + 3;
 
-        if (bcd_out[11:8] >= 5) 
-            bcd_out[11:8] = bcd_out[11:8] + 3;
+             if (i < 7 && bcd_out[7:4] > 4)
+                bcd_out[7:4] = bcd_out[7:4] + 3;   
+            
+             if (i < 7 && bcd_out[11:8] > 4)
+                bcd_out[11:8] = bcd_out[11:8] + 3;
 
-        bcd_out = {bcd_out[10:0], num_in[7-i]}; 
+        end
+
     end
 
-end
 endmodule

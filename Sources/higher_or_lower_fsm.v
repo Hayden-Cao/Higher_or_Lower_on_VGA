@@ -113,7 +113,7 @@ module higher_or_lower_fsm (
             Check_Next:
             begin
                 rng_enb = 0;
-                if (((rand_num < temp_rand_num) && guess[1]) || ((rand_num > temp_rand_num) && guess[0]))
+                if (((rand_num <= temp_rand_num) && guess[1]) || ((rand_num >= temp_rand_num) && guess[0]))
                 begin
                     next_counter = counter + 1;
                     next_state = Guess;
