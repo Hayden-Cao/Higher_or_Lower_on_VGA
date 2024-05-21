@@ -30,5 +30,5 @@ The onboard buttons on the Nexys A7-100T are used in this project which require 
 
 To View Click on the Image to open the Youtube Link
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/1FfhjUCv--U/0.jpg)](http://www.youtube.com/watch?v=1FfhjUCv--U) 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/zv1wZgNr_dA/0.jpg)](http://www.youtube.com/watch?v=zv1wZgNr_dA) 
 
