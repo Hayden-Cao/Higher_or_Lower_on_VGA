@@ -2,6 +2,12 @@
 
 VGA Driver for a Higher or Lower Number Guessing Game.
 
+**VGA Driver Demonstration**
+
+To View Click on the Image to open the Youtube Link
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/zv1wZgNr_dA/0.jpg)](http://www.youtube.com/watch?v=zv1wZgNr_dA) 
+
 **Overview**
 
 This project is focused on creating a VGA video that changes with user input to provide a display for a Higher or Lower Number Guessing Game. To complete this project we need to follow the VGA standard for a 640 x 480 display @60Hz refresh rate.
@@ -24,11 +30,4 @@ The onboard buttons on the Nexys A7-100T are used in this project which require 
 
 
 
-
-
-**VGA Driver Demonstration**
-
-To View Click on the Image to open the Youtube Link
-
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/zv1wZgNr_dA/0.jpg)](http://www.youtube.com/watch?v=zv1wZgNr_dA) 
 
