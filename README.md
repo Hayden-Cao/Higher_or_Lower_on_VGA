@@ -4,7 +4,7 @@ VGA Driver for a Higher or Lower Number Guessing Game.
 
 **VGA Driver Demonstration**
 
-To View Click on the Image to open the Youtube Link
+To View click on the Image to open the Youtube Link
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/zv1wZgNr_dA/0.jpg)](http://www.youtube.com/watch?v=zv1wZgNr_dA) 
 
