@@ -1,6 +1,6 @@
 # Higher_or_Lower_on_VGA
 
-VGA Driver for a Higher or Lower Number Guessing Game.
+VGA Driver for a Higher or Lower Number Guessing Game. Implemented on a Nexys A7-100T FPGA development board
 
 **VGA Driver Demonstration**
 
